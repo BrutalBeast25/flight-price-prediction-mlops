@@ -1,0 +1,3 @@
+python -m venv flight_mlops
+
+.\flight_mlops\Scripts\Activate.ps1

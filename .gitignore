@@ -1,0 +1,37 @@
+# Virtual Environment
+flight_mlops/
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Raw and Processed Datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained Models
+models/*
+!models/.gitkeep
+
+# MLflow Tracking
+mlruns/
+
+# IDE and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
