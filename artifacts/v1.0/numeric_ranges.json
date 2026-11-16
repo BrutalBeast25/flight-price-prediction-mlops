@@ -1,0 +1,12 @@
+{
+    "duration": {
+        "min": 0.83,
+        "max": 47.75,
+        "default": 11.25
+    },
+    "days_left": {
+        "min": 1.0,
+        "max": 49.0,
+        "default": 26.0
+    }
+}

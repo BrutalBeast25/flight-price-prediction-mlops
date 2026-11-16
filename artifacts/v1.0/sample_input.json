@@ -1,0 +1,16 @@
+[
+    {
+        "airline":"Air_India",
+        "source_city":"Bangalore",
+        "destination_city":"Mumbai",
+        "route":"Bangalore_to_Mumbai",
+        "departure_time":"Early_Morning",
+        "arrival_time":"Night",
+        "stops":"one",
+        "class":"Business",
+        "duration":16.0,
+        "days_left":11,
+        "airline_class":"Air_India_Business",
+        "route_class":"Bangalore_to_Mumbai_Business"
+    }
+]

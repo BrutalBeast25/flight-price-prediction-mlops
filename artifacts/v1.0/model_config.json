@@ -1,0 +1,18 @@
+{
+    "model_name": "Optimized XGBoost",
+    "model_version": "1.0",
+    "mlflow_run_id": "bcf093b3fa254d10b9e2e86ea482b6b4",
+    "optuna_best_trial": "0",
+    "optuna_best_cv_rmse": "2698.4784342447915",
+    "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "learning_rate": 0.08960785365368121,
+        "subsample": 0.8595304694689628,
+        "colsample_bytree": 0.6624074561769746,
+        "min_child_weight": 2,
+        "gamma": 0.2904180608409973,
+        "reg_alpha": 0.6245760287469893,
+        "reg_lambda": 0.3849583075868115
+    }
+}

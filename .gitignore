@@ -1,4 +1,5 @@
-# Virtual Environment
+
+# Virtual Environments
 flight_mlops/
 .venv/
 venv/
@@ -17,21 +18,38 @@ __pycache__/
 # Logs
 *.log
 
-# Raw and Processed Datasets
+# Datasets
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Trained Models
+# Trained Models (legacy directory)
 models/*
 !models/.gitkeep
 
-# MLflow Tracking
+# MLflow and Optuna Databases
 mlruns/
+*.db
+*.db-shm
+*.db-wal
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
 
 # IDE and OS Files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+
+
+# Personal command notes
+flight_mlops.txt

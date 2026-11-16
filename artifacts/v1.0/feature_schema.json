@@ -1,0 +1,54 @@
+{
+    "target_column": "price",
+    "feature_count": 12,
+    "features": [
+        {
+            "name": "airline",
+            "dtype": "str"
+        },
+        {
+            "name": "source_city",
+            "dtype": "str"
+        },
+        {
+            "name": "destination_city",
+            "dtype": "str"
+        },
+        {
+            "name": "route",
+            "dtype": "str"
+        },
+        {
+            "name": "departure_time",
+            "dtype": "str"
+        },
+        {
+            "name": "arrival_time",
+            "dtype": "str"
+        },
+        {
+            "name": "stops",
+            "dtype": "str"
+        },
+        {
+            "name": "class",
+            "dtype": "str"
+        },
+        {
+            "name": "duration",
+            "dtype": "float64"
+        },
+        {
+            "name": "days_left",
+            "dtype": "int64"
+        },
+        {
+            "name": "airline_class",
+            "dtype": "str"
+        },
+        {
+            "name": "route_class",
+            "dtype": "str"
+        }
+    ]
+}
